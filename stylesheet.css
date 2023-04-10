@@ -1,3 +1,43 @@
+/*
+* {
+    border: 2px solid red;
+}
+*/
+
 .navbar {
     display: flex;
+    flex: 1;
+    background-color:#1f2937;
+    color:aliceblue;
+}
+.navbar-link {
+    display: flex;
+    align-items: center;
+}
+.navbar-link-items {
+    padding: 20px 10px 20px 10px;
+    flex: auto;
+    justify-content: space-between;
+}
+
+
+.body-header{
+    background-color:#1f2937;
+    color:aliceblue;
+    display:flex;
+    flex: 1 1 0;
+    padding: 30px;
+    justify-content:space-around;
+
+}
+
+.Big-text{
+    font-size: 40px;
+    font-weight: 500;
+}
+.body-header-text{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
