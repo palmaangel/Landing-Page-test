@@ -59,14 +59,21 @@
 }
 
 .middle-body-img-holder {
+
     display: flex;
     justify-content: center;
     gap: 75px;
     padding: 0px 0px 100px 0px;
+
 }
 
-.middle-body-img {
+.middle-body-items {
     text-align: center;
+}
+.middle-body-img {
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+
 }
 
 .quote {
@@ -83,7 +90,7 @@
 }
 
 
-.Signup-mail {
+.signup-mail {
     background-color: #3882f6;
     color: #e5e7eb;
     margin: 100px 0px 100px 0px;
@@ -93,4 +100,24 @@
     align-items: center;
     gap: 80px;
     
+}
+.signup-mail-button {
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer {
+    background-color:#1f2937;
+    color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px; 
 }
