@@ -1,8 +1,14 @@
-/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300;1,400&display=swap');
+
+
 * {
-    border: 2px solid red;
+    font-family: 'Roboto', sans-serif;
 }
-*/
+
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400&display=swap'); */
+
 
 .navbar {
     display: flex;
@@ -32,12 +38,59 @@
 }
 
 .Big-text{
-    font-size: 40px;
-    font-weight: 500;
+    text-align: left;
+    font-size: 48px;
+    font-weight: extra-bold;
+    font-family: 'Roboto', sans-serif;
+
 }
 .body-header-text{
     display:flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+
+.middle-body-description {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.middle-body-img-holder {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    padding: 0px 0px 100px 0px;
+}
+
+.middle-body-img {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    text-decoration: italic;
+    padding: 130px;
+    font-size: large;
+
+}
+
+.quote p {
+    text-align: right;
+}
+
+
+.Signup-mail {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin: 100px 0px 100px 0px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    
 }
